@@ -7,7 +7,7 @@ void quit(GtkWidget *window, gpointer data)
 /* 메뉴 아이템에 대한 콜백 함수 */
 void new_project_clicked(GtkWidget *widget, gpointer data)
 {
-	gtk_label_set_text(GTK_LABEL((GtkWidget *)data),"Weclome to JeongEun's Project:)\n What do you want?\n");
+	gtk_label_set_text(GTK_LABEL((GtkWidget *)data),"Hyeonsu's Project\n Hello, world!\n");
 }
 int main(int argc, char *argv[])
 {
